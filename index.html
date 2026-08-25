@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff4f7" />
+  <title>A little question for you ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-hearts" aria-hidden="true"></div>
+  <main class="page-shell">
+    <section class="card" id="questionCard" aria-labelledby="question">
+      <span class="eyebrow">A tiny question from me</span>
+      <div class="heart-badge" aria-hidden="true">♥</div>
+      <h1 id="question">Do you miss me? <span>🥺❤️</span></h1>
+      <p class="subtitle">Be honest… I’m listening.</p>
+
+      <div class="button-area" id="buttonArea">
+        <button class="yes-button" id="yesButton" type="button">Yes <span>❤️</span></button>
+        <button class="no-button" id="noButton" type="button" aria-label="No, but this playful button will move away">No <span>😏</span></button>
+      </div>
+    </section>
+
+    <section class="card love-card" id="loveCard" hidden aria-live="polite">
+      <div class="photo-frame">
+        <!-- Replace assets/my-photo.svg with your own image later. -->
+        <img src="fun.jpeg.jpeg" alt="A special photo of us" id="lovePhoto" />
+      </div>
+      <div class="love-copy">
+        <span class="eyebrow">That’s what I hoped you’d say</span>
+        <h2>I knew it! 🥰❤️</h2>
+        <p>I miss you too!<br />Now you can’t escape me. <span>😌💕</span></p>
+      </div>
+    </section>
+  </main>
+
+  <div class="confetti" id="confetti" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
